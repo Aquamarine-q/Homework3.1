@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/list_of_flags">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/austria"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="194dp"
+                android:layout_height="42dp"
+                android:background="@android:color/holo_red_dark">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="194dp"
+                android:layout_height="42dp"
+                android:background="@color/white">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="194dp"
+                android:layout_height="42dp"
+                android:background="@android:color/holo_red_dark">
+
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/poland"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="194dp"
+                android:layout_height="64dp"
+                android:background="@color/white">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="194dp"
+                android:layout_height="64dp"
+                android:background="@android:color/holo_red_dark">
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/italy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="64dp"
+                android:layout_height="128dp"
+                android:background="@android:color/holo_green_dark">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="64dp"
+                android:layout_height="128dp"
+                android:background="@color/white">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="64dp"
+                android:layout_height="128dp"
+                android:background="@android:color/holo_red_dark">
+
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/colombia"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="4dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="194dp"
+                android:layout_height="62dp"
+                android:background="#ffba00 ">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="194dp"
+                android:layout_height="32dp"
+                android:background="@android:color/holo_blue_dark">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="194dp"
+                android:layout_height="32dp"
+                android:background="@android:color/holo_red_dark">
+
+            </FrameLayout>
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/madagascar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@color/white">
+
+            <FrameLayout
+                android:id="@+id/first_color"
+                android:layout_width="64dp"
+                android:layout_height="128dp"
+                android:background="@android:color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/second_color"
+                android:layout_width="128dp"
+                android:layout_height="64dp"
+                android:background="@android:color/holo_red_light"
+                app:layout_constraintStart_toEndOf="@id/first_color"
+                app:layout_constraintTop_toTopOf="parent">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/third_color"
+                android:layout_width="128dp"
+                android:layout_height="64dp"
+                android:background="#006400"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@id/first_color"
+                app:layout_constraintTop_toBottomOf="@id/second_color">
+
+            </FrameLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:id="@+id/thailand"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="194dp"
+                android:layout_height="20dp"
+                android:background="@android:color/holo_red_dark">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="194dp"
+                android:layout_height="20dp"
+                android:background="@color/white">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="194dp"
+                android:layout_height="40dp"
+                android:background="#00008B">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="194dp"
+                android:layout_height="20dp"
+                android:background="@color/white">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="194dp"
+                android:layout_height="20dp"
+                android:background="@android:color/holo_red_dark">
+
+            </FrameLayout>
+        </LinearLayout>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/denmark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@android:color/holo_red_dark">
+
+            <FrameLayout
+                android:layout_width="22dp"
+                android:layout_height="126dp"
+                android:layout_marginEnd="52dp"
+                android:background="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="194dp"
+                android:layout_height="22dp"
+                android:background="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+            </FrameLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/switzerland"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@android:color/holo_red_dark">
+
+            <FrameLayout
+                android:layout_width="38dp"
+                android:layout_height="88dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="114dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="40dp"
+                android:background="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+            </FrameLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</ScrollView>
